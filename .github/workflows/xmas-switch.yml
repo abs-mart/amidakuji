@@ -18,7 +18,7 @@ jobs:
     env:
       GH_TOKEN: ${{ secrets.PAGES_ADMIN_TOKEN }}
       REPO: ${{ github.repository }}
-      SITE: https://aboshidaisuke.github.io/amidakuji/
+      SITE: https://abs-mart.net/amidakuji/
     steps:
       - name: 切り替え
         run: |
